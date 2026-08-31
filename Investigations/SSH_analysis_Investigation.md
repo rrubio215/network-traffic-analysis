@@ -10,7 +10,7 @@ encrypted application traffic.
 
 **Source Host:** Kali Linux    
 **Source IP:** 192.168.1.81    
-**Source Port:** 43658  
+**Source Port:** 58230  
 
 **Destination Host:** Ubuntu Server    
 **Destination IP:** 192.168.1.245    
