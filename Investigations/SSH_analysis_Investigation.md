@@ -1,29 +1,29 @@
-\# Investigation 01 — SSH Traffic Analysis
+# Investigation 01 — SSH Traffic Analysis
 
-\#\# Objective
+## Objective
 
 Analyze an SSH connection between Kali Linux and Ubuntu Server and  
 identify the hosts, ports, TCP connection process, and visibility of  
 encrypted application traffic.
 
-\#\# Network Information
+## Network Information
 
-\*\*Source Host:\*\* Kali Linux    
-\*\*Source IP:\*\* 192.168.1.81    
-\*\*Source Port:\*\* 43658  
+**Source Host:** Kali Linux    
+**Source IP:** 192.168.1.81    
+**Source Port:** 43658  
 
-\*\*Destination Host:\*\* Ubuntu Server    
-\*\*Destination IP:\*\* 192.168.1.245    
-\*\*Destination Port:\*\* 22  
+**Destination Host:** Ubuntu Server    
+**Destination IP:** 192.168.1.245    
+**Destination Port:** 22  
 
-\*\*Protocol:\*\* TCP    
-\*\*Application:\*\* SSH
+**Protocol:** TCP    
+**Application:** SSH
 
-\#\# TCP Three-Way Handshake
+## TCP Three-Way Handshake
 
 The SSH connection began with the standard TCP three-way handshake:
 
-\`\`\`text  
+```text  
 Kali → Ubuntu     SYN  
 Ubuntu → Kali     SYN, ACK  
 Kali → Ubuntu     ACK  
